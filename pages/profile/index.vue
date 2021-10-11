@@ -1,6 +1,6 @@
 <template>
   <div>
-    <User :testg="item"/>
+    <User/>
   </div>
 </template>
 
@@ -12,13 +12,5 @@ export default {
   },
   layout: 'header',
   middleware: 'isLogin',
-  data() {
-    return {
-      item : {
-        name : "testPosst",
-        age : 34
-      }
-    }
-  },
 }
 </script>
