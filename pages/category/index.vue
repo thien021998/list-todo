@@ -12,6 +12,7 @@ export default {
   },
   layout: 'header',
   middleware: 'isLogin',
+
   created() {
     this.$store.dispatch('todo/getCategories')
   },

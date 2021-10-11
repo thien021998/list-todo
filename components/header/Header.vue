@@ -8,14 +8,17 @@
     </ul>
   </div>
 </template>
+
 <style scoped>
 .text-center{
   justify-content: center;
 }
+
 ul{
   display: inline-block;
   list-style-type:none;
 }
+
 li{
   margin: 20px;
   float: left;
